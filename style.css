@@ -1,0 +1,7 @@
+.navbar-nav {
+    margin-left: auto;
+  }
+  .logo-navbar{
+    transform: rotate(180deg);
+    transition: transform 1.5s ease;
+  }
