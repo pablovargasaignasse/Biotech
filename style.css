@@ -1,7 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(66, 144, 245);
+  }
+  
+  .carousel-item img {
+      width: 80%; /* Ajusta el ancho de las imágenes al contenedor */
+      height: 500px; /* Define una altura fija para todas las imágenes */
+      object-fit: cover; /* Recorta la imagen para llenar el contenedor sin deformarla */
+  }
 .navbar-nav {
     margin-left: auto;
   }
   .logo-navbar{
-    transform: rotate(180deg);
+    transform: rotate(360deg);
     transition: transform 1.5s ease;
+  }
+
+  .card div {
+    background-color: white;
+    text-decoration-color: white;
+  }
+  .card-text {
+    background-color: white;
+  }
+  .card-title {
+    background-color: white;
   }
