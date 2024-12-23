@@ -7,7 +7,7 @@
 background-color: #007bff;
 
 }
-body {
+.bg-image {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-image: url('/img/fondo.jpg');
@@ -16,6 +16,7 @@ body {
     background-attachment: fixed;
     background-position: center; 
     color: #333;
+
 }
 
 
@@ -109,3 +110,7 @@ body {
 .puesto {
     color: #555;
 } 
+
+.ratio-9x16 {
+    aspect-ratio: 9 / 16;
+  }
